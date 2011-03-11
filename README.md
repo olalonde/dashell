@@ -10,7 +10,7 @@ This is basically how a shell works.
 
         sudo echo "/path/to/dashell" >> /etc/shells 
 
-3. (optional) Change your "username"'s shell. "username" should have execute permission for the shell:
+3. (optional) Change "username"'s shell. "username" should have execute permission for the shell:
 
         chsh --shell /path/to/dashell username
         
