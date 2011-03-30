@@ -21,7 +21,7 @@
 
 #define STDIN 0
 #define STDOUT 1
-#define STDERR 3
+#define STDERR 2
 
 #define BUFFER_SIZE 1024
 
