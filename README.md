@@ -8,7 +8,7 @@ This is basically how a shell works.
     
 2. (optional) Append "/path/to/dashell" to /etc/shells, to make it a valid shell: 
 
-        sudo echo "/path/to/dashell" >> /etc/shells 
+        sudo bash -c 'echo "/path/to/dashell" >> /etc/shells' 
 
 3. (optional) Change "username"'s shell. "username" should have execute permission for the shell:
 
